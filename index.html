@@ -96,10 +96,13 @@
             color: var(--text-main);
         }
 
-        .logo i {
-            font-size: 26px;
-            color: var(--primary-color);
-            text-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+        .logo img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
         }
 
         .logo span {
@@ -306,8 +309,12 @@
             gap: 6px;
         }
 
-        .phone-title i {
-            color: var(--primary-color);
+        .phone-title img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid rgba(0, 242, 254, 0.3);
         }
 
         /* Phone Ring Status */
@@ -848,7 +855,7 @@
     <header>
         <div class="container header-content">
             <a href="#" class="logo">
-                <i class="fa-solid fa-compass"></i>
+                <img src="/logo.jpg" alt="다나리 로고">
                 <span>다나리배차비서</span>
             </a>
             <nav>
@@ -887,7 +894,7 @@
                     <div class="phone-notch"></div>
                     <div class="phone-screen">
                         <div class="phone-title">
-                            <i class="fa-solid fa-compass"></i> 다나리배차비서
+                            <img src="/logo.jpg" alt="다나리 로고"> 다나리배차비서
                         </div>
                         
                         <div class="phone-status-card">
